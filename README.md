@@ -6,6 +6,8 @@ This project lets you run the godot game engine and other apps in github codespa
 
 The first time you open up this repository in codespaces, focus the terminal and enter
 ```sh
+chmod +x setup.sh
+chmod +x start.sh
 ./setup.sh
 ```
 Then press enter. Wait for the installation to complete and create a vnc password when prompted. This script will automatically download Godot 4.2.1.
