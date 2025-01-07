@@ -9,7 +9,7 @@ The first time you open up this repository in codespaces, focus the terminal and
 chmod +x setup.sh
 ./setup.sh
 ```
-Then press enter. Wait for the installation to complete and create a vnc password when prompted. This script will automatically download Godot 4.2.1.
+Then press enter and wait for the installation to complete. This script will automatically download Godot 4.3.
 
 ## Subsequent Uses
 
@@ -21,4 +21,4 @@ to skip all setup steps.
 
 ## Accessing Godot
 
-Once you run the setup or start scripts, you will see a notification in the bottom right telling you about a service on port 5900. Ignore this popup and wait for a second one with port 6080. When that pops up, select "Open in Browser" and click `vnc.html` in the list of files. Enter your password and connect. Use the menu on the left hand side and click the gear cog, then select remote resizing. Right click on the black background to open apps like firefox or the terminal.
+After a few seconds a new tab should open, simply press connect and Godot should already be open. If you need to access this tab again, go to the ports tab in vscode and click the globe icon under the forwarded address column for port 6080.
